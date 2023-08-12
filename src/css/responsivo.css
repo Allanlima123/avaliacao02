@@ -138,6 +138,45 @@
         width: 100%;
         height: 280px;
     }
+
+    .footer .box--info{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer .box--info .box--esl--gaming,
+    .footer .box--info .box--contact--press,
+    .footer .box--info .box--follow--us{
+        font-size: 25px;
+        margin: 10px 0;
+    }
+
+    .footer .box--info .box--esl--gaming h4,
+    .footer .box--info .box--contact--press h4,
+    .footer .box--info .box--follow--us h4{
+    margin-bottom:15px;
+}
+    
+    .footer .box--info .box--follow--us .icons{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer hr{
+        height: 1px;
+        background: var(--color-white-rigth);
+        margin: 8px 16px;
+    }
+    
+    .footer .privacy--policy{
+        padding: 25px 10px;
+        font-size: 1rem;
+    }
+
+    .logo--aside{
+        width: 4.25rem;
+        height: 4.25rem;
+    }
 }
 
 @media (max-width: 650px) {

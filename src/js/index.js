@@ -15,6 +15,7 @@ menuDrop.addEventListener("mouseout", () => {
 
 window.addEventListener("scroll", () => {
   const scrollLogo = window.scrollY;
+
   scrollLogo > 50
     ? logoAside.classList.add("active")
     : logoAside.classList.remove("active");

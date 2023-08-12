@@ -5,19 +5,25 @@
 }
 
 .footer .box--backing{
+    overflow: hidden;
+    border-bottom: 1px solid var(--color-white-rigth);
+    border-top: 1px solid var(--color-white-rigth);
+}
+
+.footer .box--backing {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding-left: .8rem;
-    padding-right: .8rem;
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .footer .box--backing .logo--backing{
-    height: 4rem;
-    padding: .7rem;
+    flex: 1 1 150px;
+    height: 55px;
+    padding: 5px;
+    border: 1px solid var(--color-white-rigth);
 }
+
 
 .footer .box--backing .logo--backing img{
     width: 100%;
