@@ -1,0 +1,174 @@
+@media (max-width: 1300px) {
+    .seasonrecord--end--matches .box--Seasonrecord .position--team h4{
+        margin:0 0 .8rem .3rem;
+        margin-top: 65px;
+    }
+
+    .container--main .seasonrecord--end--matches .box--Seasonrecord{
+        width: 100%;
+        margin-bottom: 45px;
+    }
+
+    .container--main .seasonrecord--end--matches .box--Seasonrecord div{
+        display: flex;
+        align-items: center;
+    }
+
+    .seasonrecord--end--matches .box--Seasonrecord .info--matches{
+        margin-top: 16px;
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 15%;
+    }
+
+    .seasonrecord--end--matches .box--Seasonrecord .info--matches .wins,
+    .seasonrecord--end--matches .box--Seasonrecord .info--matches .losses,
+    .seasonrecord--end--matches .box--Seasonrecord .info--matches .winning--percentage,
+    .seasonrecord--end--matches .box--Seasonrecord .info--matches .longest--streak{
+        flex:0 1 170px;
+        margin: 0 10px;
+    }
+
+    .seasonrecord--end--matches .box--Seasonrecord .info--matches .wins i,
+    .seasonrecord--end--matches .box--Seasonrecord .info--matches .losses i,
+    .seasonrecord--end--matches .box--Seasonrecord .info--matches .winning--percentage i,
+    .seasonrecord--end--matches .box--Seasonrecord .info--matches .longest--streak i{
+        font-size: 30px;
+    }
+
+    .seasonrecord--end--matches .box--Seasonrecord .info--matches .wins span,
+    .seasonrecord--end--matches .box--Seasonrecord .info--matches .losses span,
+    .seasonrecord--end--matches .box--Seasonrecord .info--matches .winning--percentage span,
+    .seasonrecord--end--matches .box--Seasonrecord .info--matches .longest--streak span{
+        margin-left: 5px;
+        font-size: 15px;
+    }
+
+    .seasonrecord--end--matches .box--Seasonrecord .info--matches .wins .points--matches,
+    .seasonrecord--end--matches .box--Seasonrecord .info--matches .losses .points--losses,
+    .seasonrecord--end--matches .box--Seasonrecord .info--matches .winning--percentage .percentage,
+    .seasonrecord--end--matches .box--Seasonrecord .info--matches .longest--streak .longest{
+        margin: 0;
+        font-size: 1.3rem;
+    }
+
+    .seasonrecord--end--matches .box--matches,
+    .seasonrecord--end--matches .box--matches .matches{
+        width: 98%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .box-aside{
+        position: absolute;
+        left: -100%;
+    }
+
+    .container--main{
+        margin-left: 0;
+    }
+
+    .footer{
+        margin-left: 0;
+    }
+
+    .container--main .box--team{
+        align-items: center;
+        
+    }
+
+    .container--main .title--team{
+        font-size: 64px;
+        padding-top: 88px;
+    }
+
+    .container--main .box--team .box--img--team{
+        width: 132px;
+        height: 132px;
+        margin-right: 64px;
+    }
+}
+
+@media (max-width: 768px) {
+    .seasonrecord--end--matches .box--Seasonrecord div{
+        width: 100%;
+        display: flex;
+        margin: 0 5px;
+        flex-wrap: wrap;
+    }
+
+    .seasonrecord--end--matches .box--matches .matches tr td .box--img--team{
+        width: 40px;
+        height: 40px;
+        padding: 2px;
+        margin: 0 5px;
+    }
+
+    .seasonrecord--end--matches .box--Seasonrecord .info--matches{
+        margin: 0;
+    }
+
+    .seasonrecord--end--matches .box--matches .matches tr td .name--team{
+        width: 100%;
+        font-size: 12px;
+        margin-right: 0;
+    }
+
+    .result--matche--vitory,
+    .result--matche--defeat{
+        width: 50px;
+        height: 40px;
+    }
+
+    .seasonrecord--end--matches .box--matches .matches tr td .points--matches{
+        width: 100%;
+        padding-left: 15px;
+    }
+
+    .box--plays{
+        margin: 10px;
+    }
+    
+    .box--plays .cards--plays .card--play{
+        flex: 0 1 215px;
+    }
+
+    .box--plays .cards--plays .card--play .img--play{
+        width: 100%;
+        height: 280px;
+    }
+}
+
+@media (max-width: 650px) {
+    .seasonrecord--end--matches .box--Seasonrecord .info--matches .wins,
+    .seasonrecord--end--matches .box--Seasonrecord .info--matches .losses,
+    .seasonrecord--end--matches .box--Seasonrecord .info--matches .winning--percentage,
+    .seasonrecord--end--matches .box--Seasonrecord .info--matches .longest--streak{
+        flex:1 1 45%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .container--main .box--team .name--team .name{
+        margin: 25px 0 0 10px;
+        font-size: 35px;
+    }
+
+    .container--main .box--team .box--img--team{
+        width: 85px;
+        height: 85px;
+        margin-right: 55px;
+    }
+
+    .icons{
+        margin: 18px 0 0 12px;
+    }
+
+    .box--plays .cards--plays{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+}

@@ -1,0 +1,350 @@
+/* icons global */
+.icons{
+    margin: 32px 0 0 12.8px;
+    display: flex;
+    cursor: pointer;
+}
+
+.icons .icon{
+    margin-right: 16px;
+    width: 28.8px;
+    height: 28.8px;
+    text-align: center;
+    line-height: 28.8px;
+    border-radius: 4.8px;
+    background: var(--color-Tangerine);
+}
+
+/* --------//---------- */
+.container--main{
+    max-width: 80rem;
+    /* margin: 0 auto; */
+    margin-left: 14.7rem;
+}
+
+.container--main .title--team{
+    font-family: var(--bebas-neue);
+    color: transparent;
+    font-size: 5rem;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 7rem;
+    background: linear-gradient(var( --color-burnt-orange), var(--color-Tangerine));
+    -webkit-background-clip: text;
+}
+
+.container--main .box--team{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.container--main .box--team .name--team .name{
+    margin: 2rem 0 0 .8rem;
+    text-transform: uppercase;
+    color: var(--color-white-rigth);
+    font-family: var(--bebas-neue);
+    font-size: 2.8rem;
+    font-weight: 400;
+}
+
+.container--main .box--team .icons .icon i{
+    color: var(--color-white-rigth);
+}
+
+.container--main .box--team .box--img--team{
+    width: 14rem;
+    height: 14rem;
+    margin-right: 6rem;
+}
+
+.container--main .box--team .box--img--team img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.seasonrecord--end--matches{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: .8rem;
+}
+
+.seasonrecord--end--matches .box--Seasonrecord{
+    width: 25rem;
+}
+
+.seasonrecord--end--matches .box--Seasonrecord h3,
+.seasonrecord--end--matches .box--matches h3,
+.box--plays h3{
+    font-size: 1.7rem;
+    font-family: var(--bebas-neue);
+    color: var(--color-Tangerine);
+    font-weight: 400;
+}
+
+.seasonrecord--end--matches .box--Seasonrecord .position--team{
+    display: flex;
+    align-items: flex-end;
+}
+
+.seasonrecord--end--matches .box--Seasonrecord .position--team span{
+    background: var(--color-Tangerine);
+    width: 8rem;
+    height: 4.5rem;
+    margin-top: 2rem;
+    display: block;
+    text-align: center;
+    line-height: 4.5rem;
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: var(--bebas-neue);
+    color: var(--color-white-rigth);
+}
+
+.seasonrecord--end--matches .box--Seasonrecord .position--team h4{
+    margin:0 0 .8rem .3rem;
+    font-size: .9rem;
+    font-weight: 400;
+    font-family: var(--font-roboto);
+    color: var(--color-white-rigth);
+}
+
+.seasonrecord--end--matches .box--matches .matches tr td{
+    display: flex;
+    align-items: center;
+    padding: 0 .8rem;
+    background: var(--color-Tangerine);
+}
+
+.seasonrecord--end--matches .box--matches .matches tr td span{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: var(--bebas-neue);
+    color: var(--color-white-rigth);
+}
+
+.seasonrecord--end--matches .box--matches .matches tr td .box--img--team{
+    width: 2.3rem;
+    height: 2.3rem;
+    padding: .3rem;
+    margin: 0 1.3rem;
+}
+
+.seasonrecord--end--matches .box--matches .matches tr td .box--img--team img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.seasonrecord--end--matches .box--matches .matches tr td .name--team{
+    color: var(--color-white-rigth);
+    font-family: var(--font-roboto);
+    font-size: .9rem;
+    width: 15rem;
+    margin-right: 3rem;
+}
+
+.result--matche--vitory,
+.result--matche--defeat{
+    width: 1.3rem;
+    height: 2.3rem;
+}
+
+.result--matche--vitory{
+    background: #6BFF36 !important;
+}
+
+.result--matche--defeat{
+    background: #FF2B5C !important;
+}
+
+.seasonrecord--end--matches .box--matches .matches tr td .points--matches{
+    width: 15rem;
+    padding-left: 2rem;
+    color: var(--color-white-rigth);
+    font-family: var(--font-roboto);
+    font-weight: bold;
+}
+
+.seasonrecord--end--matches .box--matches .matches tr td .points--matches span{
+    margin: 0 .8rem;
+}
+
+.seasonrecord--end--matches .box--Seasonrecord .info--matches{
+    margin-top: 3rem;
+}
+
+.seasonrecord--end--matches .box--Seasonrecord .info--matches .wins,
+.seasonrecord--end--matches .box--Seasonrecord .info--matches .losses,
+.seasonrecord--end--matches .box--Seasonrecord .info--matches .winning--percentage,
+.seasonrecord--end--matches .box--Seasonrecord .info--matches .longest--streak{
+    margin: .5rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.seasonrecord--end--matches .box--Seasonrecord .info--matches .wins i,
+.seasonrecord--end--matches .box--Seasonrecord .info--matches .losses i,
+.seasonrecord--end--matches .box--Seasonrecord .info--matches .winning--percentage i,
+.seasonrecord--end--matches .box--Seasonrecord .info--matches .longest--streak i{
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 2.5rem;
+    color: var(--color-Tangerine);
+}
+
+.seasonrecord--end--matches .box--Seasonrecord .info--matches .wins span,
+.seasonrecord--end--matches .box--Seasonrecord .info--matches .losses span,
+.seasonrecord--end--matches .box--Seasonrecord .info--matches .winning--percentage span,
+.seasonrecord--end--matches .box--Seasonrecord .info--matches .longest--streak span{
+    font-size: 1rem;
+    color: rgba(217, 223, 223, 0.466);
+    font-family: var(--font-roboto);
+}
+
+.seasonrecord--end--matches .box--Seasonrecord .info--matches .wins .points--matches,
+.seasonrecord--end--matches .box--Seasonrecord .info--matches .losses .points--losses,
+.seasonrecord--end--matches .box--Seasonrecord .info--matches .winning--percentage .percentage,
+.seasonrecord--end--matches .box--Seasonrecord .info--matches .longest--streak .longest{
+    margin: 0 .8rem;
+    font-size: 1.8rem;
+    color: var(--color-white-rigth);
+    font-family: var(--font-roboto);
+}
+
+/* ------//------ */
+/* box--plays */
+
+.box--plays{
+    margin-left: 12.8px;
+}
+
+.box--plays h3{
+    margin: 4rem 0 2rem 0;
+}
+
+.box--plays .cards--plays{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 17px;
+}
+
+.box--plays .cards--plays .card--play{
+    flex: 0 1 200px;
+    background: var(--color-Tangerine);
+    border-radius: .4rem;
+    overflow: hidden;
+}
+
+.box--plays .cards--plays .card--play .img--play{
+    width: 100%;
+    height: 16.2rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.box--plays .cards--plays .card--play .img--play::after{
+    content:'';
+    background: #fcfcfc3f;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    z-index: -999;
+    position: absolute;
+    clip-path: polygon(88% 0, 100% 0, 100% 100%, 30% 100%);
+}
+
+.box--plays .cards--plays .card--play .img--play img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.box--plays .cards--plays .card--play .info--play{
+    text-align: center;
+    margin: 1rem 2rem;
+}
+
+.box--plays .cards--plays .card--play .info--play h4{
+    color: rgba(235, 235, 235, 0.678);
+    font-size: 1.2rem;
+    font-family: var(--font-roboto);
+    font-weight: 600;
+}
+
+.box--plays .cards--plays .card--play .info--play span{
+    display: block;
+}
+
+.box--plays .cards--plays .card--play .info--play .name--fantasy,
+.box--plays .cards--plays .card--play .info--play .name--play{
+    margin: .3rem 0;
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: var(--color-white-rigth);
+}
+
+.box--plays .cards--plays .card--play .info--play .name--play{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.box--plays .cards--plays .card--play .info--play .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box--plays .cards--plays .card--play .info--play .icons .icon{
+    background: var(--color-ambar-dourado);
+}
+
+.box--plays .cards--plays .card--play .info--play .icons .icon i{
+    color: var(--color-white-rigth);
+    background: var(--color-ambar-dourado);
+    margin-right: 1rem;
+    width: 1.9rem;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    border-radius: .3rem;
+}
+
+
+.box--plays .buttons{
+    padding: 4rem 0 7rem 0;
+    text-align: center;
+}
+
+.box--plays .buttons .schedule--e--results,
+.box--plays .buttons .standings{
+    padding: 1rem 2rem;
+    margin-bottom: 10px;
+    border-radius: .3rem;
+    background: var(--color-Tangerine);
+    cursor: pointer;
+}
+
+.box--plays .buttons .schedule--e--results:hover,
+.box--plays .buttons .standings:hover{
+    background: var(--color-white-rigth);
+    transition: .5s linear;
+}
+
+.box--plays .buttons .schedule--e--results a,
+.box--plays .buttons .standings a {
+    font-size: 1.2rem;
+    color: var(--color-brown-coffee);
+    font-family: var(--bebas-neue);
+    font-weight: 400;
+}
+
+.box--plays .buttons .schedule--e--results a i,
+.box--plays .buttons .standings a i{
+    margin-right: .5rem;
+}
+

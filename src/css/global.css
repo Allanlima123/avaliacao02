@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto+Mono:wght@200;300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
+:root{
+    --color-brown-coffee:#34230F;
+    --color-white-rigth:#FCFCFC;
+    --color-burnt-orange:#BF5B04;
+    --color-ambar-dourado: #DC8713;
+    --color-Tangerine:#FF9600;
+    --font-roboto-mono:"Roboto Mono", sans-serif;
+    --font-roboto :"Roboto", sans-serif;
+    --Open-Sans :"Open Sans", sans-serif;
+    --bebas-neue:"Bebas Neue", sans-serif;
+}
+
+.space--between{
+    margin-bottom: .1rem;
+    border-bottom: .1px solid var(--color-white-rigth);
+}
+
+.border--between{
+    height: 4rem;
+    width: .5px;
+    background: #fff;
+}
+
+*{
+    padding: 0;
+    outline: none;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+body,
+html{
+    overflow-x: hidden;
+    position: relative;
+    background: #000;
+    background-image: url(../images/banner.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo--aside{
+    position: fixed;
+    right: .3rem;
+    top: 10%;
+    width: 6rem;
+    height: 6rem;
+    z-index: 99;
+    transition: .4s linear;
+}
+
+.logo--aside.active{
+    right: -4.5%;
+}
+
+.logo--aside img{
+    width: 100%;
+}
