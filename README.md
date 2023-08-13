@@ -27,7 +27,7 @@ Seja bem-vindo ao Team Pro League! Este é um exemplo de site que reúne informa
 </div>
 
 <h2>Site Proposto</h2>
-🔗<a href="[https://pro.eslgaming.com/worldranking/csgo/rankings/](https://pro.eslgaming.com/csgo/proleague/team/furia/)" target="_blank" rel="external">Site worldranking</a>
+🔗<a href="https://pro.eslgaming.com/csgo/proleague/team/furia/" target="_blank" rel="external">Site worldranking</a>
 
 <br />
 
