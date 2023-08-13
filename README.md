@@ -32,4 +32,4 @@ Seja bem-vindo ao Team Pro League! Este é um exemplo de site que reúne informa
 <br />
 
 <h2>Link Deploy</h2>
-🔗<a href="https://allanlima123.github.io/avaliacao02/" target="_blank" rel="external">Avaliação 01</a>
+🔗<a href="https://allanlima123.github.io/avaliacao02/" target="_blank" rel="external">Avaliação 02</a>
