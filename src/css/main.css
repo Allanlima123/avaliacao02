@@ -20,6 +20,7 @@
     max-width: 80rem;
     /* margin: 0 auto; */
     margin-left: 14.7rem;
+    position: relative;
 }
 
 .container--main .title--team{
@@ -230,11 +231,11 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 17px;
+    gap: 12px;
 }
 
 .box--plays .cards--plays .card--play{
-    flex: 0 1 200px;
+    flex: 0 1 205px;
     background: var(--color-Tangerine);
     border-radius: .4rem;
     overflow: hidden;

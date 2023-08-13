@@ -4,7 +4,7 @@
     height: 100%;
     position: fixed;
     z-index: 999;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     cursor: pointer;
 }
 

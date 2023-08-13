@@ -98,7 +98,17 @@
     .header{
         display: block;
     }
+
+    .logo--aside{
+        display: none;
+    }
 }
+
+/* @media(max-width:1024px){
+    .logo--aside.active{
+        right: -6%;
+    }
+} */
 
 @media (max-width: 768px) {
     .seasonrecord--end--matches .box--Seasonrecord div{
@@ -181,11 +191,6 @@
     .footer .privacy--policy{
         padding: 25px 10px;
         font-size: 1rem;
-    }
-
-    .logo--aside{
-        width: 4.25rem;
-        height: 4.25rem;
     }
 }
 
