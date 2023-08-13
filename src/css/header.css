@@ -1,0 +1,40 @@
+.header{
+    display: none;
+}
+
+.header.active--header{
+    display: none;
+}
+
+.header .container--box{
+    background: var(--color-burnt-orange);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    padding: 10px 5%;
+}
+
+.header .container--box .img--logo--pro{
+    width: 45px;
+    height: 65px;
+}
+
+.header .container--box .img--logo--pro img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.header .container--box #menu-btn{
+    cursor: pointer;
+    transition: .3s linear;
+    color: var(--color-white-rigth);
+}
+
+.header .container--box #menu-btn i{
+    font-size: 26px;
+}

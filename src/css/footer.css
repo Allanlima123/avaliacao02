@@ -72,6 +72,10 @@
     cursor: pointer;
 }
 
+.footer .box--info .box--follow--us .icons .icon{
+    font-size: 25px;
+}
+
 .footer .box--info .box--follow--us .icons .icon:hover,
 .footer .box--info .box--follow--us .icons .icon:hover i{
     background: var(--color-white-rigth);

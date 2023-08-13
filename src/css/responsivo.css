@@ -61,8 +61,14 @@
 
 @media (max-width: 1000px) {
     .box-aside{
-        position: absolute;
+        position: fixed;
         left: -100%;
+        overflow-y: scroll;
+        transition: .7s linear;
+    }
+
+    .box-aside.active--box--aside{
+        left: 0%;
     }
 
     .container--main{
@@ -87,6 +93,10 @@
         width: 132px;
         height: 132px;
         margin-right: 64px;
+    }
+
+    .header{
+        display: block;
     }
 }
 
