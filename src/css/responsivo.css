@@ -62,7 +62,7 @@
 @media (max-width: 1000px) {
     .box-aside{
         position: fixed;
-        left: -100%;
+        left: -150%;
         overflow-y: scroll;
         transition: .7s linear;
     }
@@ -135,6 +135,10 @@
         font-size: 35px;
     }
 
+    .box-aside .nav--bar .nav--list .menu--drop a .icon--arrow{
+        margin-left: 70%;
+    }
+
     .box-aside .logo--league .btn--watch{
         display: block;
         width: 150px;
@@ -146,7 +150,45 @@
         margin-top: 15px;
         color: var(--color-burnt-orange);
     }
+
+    .box-aside .box--info{
+        display: flex;
+        flex-direction: column;
+        border-top: 2px solid var(--color-ambar-dourado);
+        margin-left: 15px;
+    }
     
+    .box-aside .box--info .box--esl--gaming h4,
+    .box-aside .box--info .box--contact--press h4,
+    .box-aside .box--info .box--follow--us h4{
+        font-family: var(--bebas-neue);
+        color: var(--color-white-rigth);
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-bottom: .5rem;
+    }
+    
+    .box-aside .box--info .box--esl--gaming ul li a,
+    .box-aside .box--info .box--contact--press address{
+        color: var(--color-white-rigth);
+        font-size: .9rem;
+        font-family: var(--font-roboto);
+        font-weight: 400;
+    }
+
+    .box-aside .box--streaming .icons .icon{
+        margin-left: 15px;
+    }
+
+    .box-aside .box--streaming .img--esea{
+        margin-left: 15px;
+        width: 65%;
+    }
+    
+    .box-aside .box--streaming .img--esea span{
+        font-size: 13px;
+    }
+
     .seasonrecord--end--matches .box--Seasonrecord div{
         width: 100%;
         display: flex;
@@ -210,8 +252,8 @@
     .footer .box--info .box--esl--gaming h4,
     .footer .box--info .box--contact--press h4,
     .footer .box--info .box--follow--us h4{
-    margin-bottom:15px;
-}
+        margin-bottom:15px;
+    }
     
     .footer .box--info .box--follow--us .icons{
         display: flex;
@@ -230,6 +272,8 @@
     }
 }
 
+
+
 @media (max-width: 650px) {
     .seasonrecord--end--matches .box--Seasonrecord .info--matches .wins,
     .seasonrecord--end--matches .box--Seasonrecord .info--matches .losses,
@@ -241,6 +285,19 @@
 }
 
 @media (max-width: 425px) {
+    .box-aside{
+        width: 250px;
+        overflow-y: scroll;
+    }
+
+    .box-aside .logo--league img{
+        margin-right: 30px;
+    }
+
+    .box-aside .nav--bar .nav--list .menu--drop a .icon--arrow{
+        margin-left: 60%;
+    }
+
     .container--main .box--team .name--team .name{
         margin: 25px 0 0 10px;
         font-size: 35px;

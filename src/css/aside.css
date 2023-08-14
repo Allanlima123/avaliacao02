@@ -10,7 +10,8 @@
 
 .box-aside .fa-xmark,
 .box-aside .box--watch--xmark,
-.box-aside .logo--league .btn--watch{
+.box-aside .logo--league .btn--watch,
+.box-aside .box--info{
     display: none;
 }
 
@@ -79,8 +80,8 @@
 /* menu suspenso */
 .box-aside .nav--bar .nav--list .menu--drop .drop--down--box{
     position: absolute;
-    left: 95%;
-    top: 50%;
+    left: 93%;
+    top: 48.6%;
     width: 248px;
     display: none;
     z-index: 9;
