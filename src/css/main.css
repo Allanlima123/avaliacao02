@@ -17,10 +17,14 @@
 
 /* --------//---------- */
 .container--main{
+
+    margin-left: 14.7rem;
+    position: relative;
+}
+
+.container--main .max--width{
     max-width: 80rem;
     margin: 0 auto;
-    padding-left: 13rem;
-    position: relative;
 }
 
 .container--main .title--team{
