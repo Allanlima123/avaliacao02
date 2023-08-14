@@ -4,6 +4,7 @@ const logoAside = document.querySelector(".logo--aside");
 const header = document.querySelector(".header");
 const menuBtn = document.querySelector("#menu-btn > i");
 const boxAside = document.querySelector(".box-aside");
+const iconFaXmark = document.querySelector(".fa-xmark");
 
 menuDrop.addEventListener("mousemove", () => {
   dropDownBox.classList.add("active--menu");
@@ -22,9 +23,10 @@ window.addEventListener("scroll", () => {
     : logoAside.classList.remove("active");
 });
 
-const activeMenuAside = () => {
+const activateAndDeactivateMenu = () => {
   menuBtn.classList.toggle('fa-xmark');
   boxAside.classList.toggle("active--box--aside");
 };
 
-menuBtn.addEventListener("click", activeMenuAside);
+menuBtn.addEventListener("click", activateAndDeactivateMenu);
+iconFaXmark.addEventListener("click", activateAndDeactivateMenu)
