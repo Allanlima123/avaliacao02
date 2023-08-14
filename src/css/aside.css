@@ -8,6 +8,12 @@
     cursor: pointer;
 }
 
+.box-aside .fa-xmark,
+.box-aside .box--watch--xmark,
+.box-aside .logo--league .btn--watch{
+    display: none;
+}
+
 .box-aside::-webkit-scrollbar{
     width: 0;
 }
@@ -33,10 +39,6 @@
     text-transform: uppercase;
     font-family: var(--bebas-neue);
 }
-/* 
-.box-aside .nav--bar .nav--list li{
-    border-bottom: .1px solid var(--color-white-rigth);
-} */
 
 .box-aside .nav--bar .nav--list li{
     padding: 16px 16.8px;

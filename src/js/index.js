@@ -21,8 +21,8 @@ window.addEventListener("scroll", () => {
     ? logoAside.classList.add("active")
     : logoAside.classList.remove("active");
 
-    menuBtn.classList.remove('fa-xmark');
-    boxAside.classList.remove("active--box--aside");
+    // menuBtn.classList.remove('fa-xmark');
+    // boxAside.classList.remove("active--box--aside");
 });
 
 const activeMenuAside = () => {
