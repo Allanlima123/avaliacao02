@@ -1,7 +1,11 @@
 .footer{
-    max-width: 80rem;
-    margin-left: 14.7rem;
+    padding-left: 14rem;
     background: var(--color-burnt-orange);
+}
+
+.footer .max--width{
+    max-width: 80rem;
+    margin: 0 auto;
 }
 
 .footer .box--backing{
